@@ -1,0 +1,96 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light gray background */
+}
+ 
+.header {
+    background-color: hsl(133, 88%, 28%); /* Dark gray background */
+    padding: 1rem;
+    text-align: center;
+}
+ 
+.title {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px; /* Rounded title */
+    padding: 10px;
+    background-color: #4CAF50; /* Green background */
+}
+ 
+.nav-section {
+    background-color: #fff; /* White background */
+    padding: 1rem;
+    text-align: center;
+}
+ 
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+ 
+.nav-links li {
+    margin-right: 20px;
+}
+ 
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    border-radius: 10px; /* Rounded navigation links */
+    padding: 10px;
+    background-color: #fff;
+}
+ 
+.nav-links a:hover {
+    background-color: #f7f7f7; /* Light gray hover effect */
+}
+ 
+.content-section {
+    padding: 2rem;
+}
+ 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+ 
+.grid-item {
+    background-color: #fff;
+    padding: 50px;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Rounded grid items */
+}
+ 
+.image-text {
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+    padding: 10px;
+}
+ 
+img {
+    width: 40%;
+    height: 150px;
+    left: 70px;
+    object-fit: cover;
+    border-radius: 10px; /* Rounded images */
+}
+#logo {
+    position: absolute;
+    top: 55px;
+    left: 18px;
+    width: 222px;
+    height: 38px;
+}
+body {
+    background-image: url('wp13570225.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
