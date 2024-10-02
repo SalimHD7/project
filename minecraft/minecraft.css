@@ -62,7 +62,7 @@ body {
  
 .grid-item {
     background-color: #fff;
-    padding: 20px;
+    padding: 50px;
     border: 1px solid #ddd;
     border-radius: 10px; /* Rounded grid items */
 }
@@ -75,8 +75,22 @@ body {
 }
  
 img {
-    width: 100%;
+    width: 40%;
     height: 150px;
+    left: 70px;
     object-fit: cover;
     border-radius: 10px; /* Rounded images */
 }
+#logo {
+    position: absolute;
+    top: 55px;
+    left: 18px;
+    width: 222px;
+    height: 38px;
+}
+body {
+    background-image: url('wp13570225.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
