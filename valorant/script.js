@@ -6,4 +6,4 @@ document.getElementById('hero-button').addEventListener('click', function() {
 });
 
 // Add event listener to call-to-action section button
-document.getElementById('cta-button').addEventListener('click'
+document.getElementById('cta-button').addEventListener('click')
