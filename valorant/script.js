@@ -1,9 +1,7 @@
-// script.js
-
-// Add event listener to hero section button
-document.getElementById('hero-button').addEventListener('click', function() {
-    alert('You clicked the hero section button!');
+document.addEventListener('DOMContentLoaded', function() {
+    // Example JavaScript functionality
+    const heroButton = document.querySelector('.hero button');
+    heroButton.addEventListener('click', function() {
+        alert('Button clicked!');
+    });
 });
-
-// Add event listener to call-to-action section button
-document.getElementById('cta-button').addEventListener('click')
