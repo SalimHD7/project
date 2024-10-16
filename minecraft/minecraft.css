@@ -80,7 +80,7 @@ body {
     padding: 10px;
 }
  
-img {
+.grid-item-img {
     width: 400px;
     height: 500px;
     object-fit: cover;
@@ -88,11 +88,11 @@ img {
     margin: 0 auto;
 }
 #logo {
-    position: absolute;
+    /* position: absolute;
     top: -85px;
     left: 752px;
-    width: 558px;
-    height: 314px;
+    width: 279px; */
+    height: 90px;
 }
 body {
     background-image: url('animated-green-pixel-grass-background-the-concept-of-games-background-squares-pattern-background-minecraft-concept-illustration-light-green-abstract-textured-polygonal-background-video.jpg');
