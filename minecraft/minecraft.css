@@ -11,6 +11,12 @@ body {
     text-align: center;
     opacity: 0.9;
 }
+.headerinfo {
+    background-color: hsl(120, 6%, 10%); /* Dark gray background */
+    padding: 1rem;
+    text-align: center;
+    opacity: 0.9;
+}
  
 .title {
     font-size: 36px;
@@ -21,7 +27,12 @@ body {
 }
  
 .nav-section {
-    background-color: #464141; /* White background */
+    background-color: #313131; /* White background */
+    padding: 1rem;
+    text-align: center;
+}
+.nav-sectioninfo {
+    background-color: #1c1919; /* White background */
     padding: 1rem;
     text-align: center;
 }
@@ -100,6 +111,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
   }
+  .informationpage {
+    background-image: url('Texture-Black-Background-Desktop-HD-Wallpaper-34217.jpg');
+  }
+  
   h2 {
     display: block;
     font-size: 1.5em;
