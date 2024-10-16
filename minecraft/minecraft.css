@@ -11,12 +11,6 @@ body {
     text-align: center;
     opacity: 0.9;
 }
-.headerinfo {
-    background-color: hsl(120, 6%, 10%); /* Dark gray background */
-    padding: 1rem;
-    text-align: center;
-    opacity: 0.9;
-}
  
 .title {
     font-size: 36px;
@@ -111,9 +105,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
   }
-  .informationpage {
-    background-image: url('Texture-Black-Background-Desktop-HD-Wallpaper-34217.jpg');
-  }
   
   h2 {
     display: block;
@@ -153,3 +144,187 @@ footer {
   footer div span {
     margin-left: 8px;
   }
+
+
+  /* INFORMATION PAGE!!!!!! */
+
+  .informationpage {
+    background-image: url('minecraftgradient1.webp');
+  }
+
+
+  .headerinfo {
+    background-color: hsl(120, 6%, 10%); /* Dark gray background */
+    padding: 1rem;
+    text-align: center;
+    opacity: 0.9;
+}
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.nav-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-info {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.nav-links-info {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links-info li {
+    margin-right: 20px;
+}
+
+.nav-links-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links-info a:hover {
+    color: #f0a500;
+}
+
+/* Hero Section */
+.hero-info {
+    height: 80vh;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero-info h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-info p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.hero-info button {
+    padding: 10px 20px;
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-info button:hover {
+    background-color: #333;
+}
+
+/* Info Cards Section */
+.info-section-info {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.info-section-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.info-cards-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-info {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card-info:hover {
+    transform: scale(1.05);
+}
+
+.card-info h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.card-info p {
+    font-size: 1rem;
+}
+
+/* Content Section using Grid */
+.content-section-info {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.content-grid-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.content-item-info {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-item-info h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.content-item-info p {
+    font-size: 1rem;
+}
+
+/* Footer */
+.footer-info {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .info-cards-info .card-info,
+    .content-grid-info .content-item-info {
+        width: 80%;
+    }
+}
