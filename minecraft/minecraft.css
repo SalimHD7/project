@@ -68,7 +68,7 @@ body {
 }
  
 .grid-item {
-    width: 400px;
+    width: 500px;
     background-color: #0dc435;
     padding: 50px;
     border: 2px solid #ffffff;
@@ -210,8 +210,8 @@ header {
 
 /* Hero Section */
 .hero-info {
-    height: 80vh;
-    background-color: #f0f0f0;
+    height: 60vh;
+    background-image: url('2023-12-10_23.05.54-1.png');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,13 +220,17 @@ header {
 }
 
 .hero-info h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .hero-info p {
-    font-size: 1.25rem;
+    font-size: 1.50rem;
     margin-bottom: 2rem;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .hero-info button {
@@ -247,17 +251,32 @@ header {
 .info-section-info {
     padding: 3rem 0;
     text-align: center;
+    color: #fff;
 }
 
 .info-section-info h2 {
     font-size: 2.5rem;
     margin-bottom: 2rem;
+    color: #fff;
 }
 
 .info-cards-info {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    color: #fff;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: #fff;
 }
 
 .card-info {
@@ -265,9 +284,10 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 30%;
     margin-bottom: 2rem;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    color: #000000;
 }
 
 .card-info:hover {
@@ -282,6 +302,37 @@ header {
 .card-info p {
     font-size: 1rem;
 }
+
+#tree {
+    width: 150px;
+  }
+  #craftingtable {
+    width: 150px;
+  }
+  #wdnpickaxe {
+    width: 120px;
+  }
+
+
+#ironandcoal {
+    width: 110px;
+  }
+  #ironpickaxe {
+    width: 150px;
+  }
+  #diamond {
+    width: 120px;
+  }
+
+#enchanting-table {
+    width: 150px;
+  }
+  #lapis-lazuli {
+    width: 100px;
+  }
+  #plains-house {
+    width: 200px;
+  }
 
 /* Content Section using Grid */
 .content-section-info {
@@ -298,9 +349,10 @@ header {
 
 .content-item-info {
     background-color: #fff;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .content-item-info h3 {
@@ -312,6 +364,22 @@ header {
     font-size: 1rem;
 }
 
+#taiga {
+    width: 300px;
+    
+  }
+
+  #creeper {
+    width: 140px;
+  }
+
+  #blocks {
+    width: 150px;
+  }
+
+  #crafting1 {
+    width: 340px;
+  }
 /* Footer */
 .footer-info {
     background-color: #333;
@@ -327,4 +395,40 @@ header {
     .content-grid-info .content-item-info {
         width: 80%;
     }
+}
+
+/* GAMEPLAY */
+
+.grid-item-gameplay {
+    width: 1700px;
+    background-color: #0dc435;
+    padding: 400px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-image: url(X9_0vYvfSHR0_aySL_y5828RR5epqPW-qIn3S9mFQxU.webp);
+    justify-content: center;
+    align-items: center;
+}
+
+.video-background {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 110%;  /* Set width */
+    object-fit: cover; /* Cover the area, maintaining aspect ratio */
+    transform: translate(-55%, -50%); /* Center the video */
+    z-index: -1; /* Place behind other content */
+    filter: blur(10px);
+}
+
+.content-section-gameplay {
+    padding: 10rem;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.grid-container-gameplay {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
