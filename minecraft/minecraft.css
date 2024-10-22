@@ -21,7 +21,12 @@ body {
 }
  
 .nav-section {
-    background-color: #464141; /* White background */
+    background-color: #313131; /* White background */
+    padding: 1rem;
+    text-align: center;
+}
+.nav-sectioninfo {
+    background-color: #1c1919; /* White background */
     padding: 1rem;
     text-align: center;
 }
@@ -63,7 +68,7 @@ body {
 }
  
 .grid-item {
-    width: 400px;
+    width: 500px;
     background-color: #0dc435;
     padding: 50px;
     border: 2px solid #ffffff;
@@ -80,7 +85,7 @@ body {
     padding: 10px;
 }
  
-img {
+.grid-item-img {
     width: 400px;
     height: 500px;
     object-fit: cover;
@@ -88,11 +93,11 @@ img {
     margin: 0 auto;
 }
 #logo {
-    position: absolute;
+    /* position: absolute;
     top: -85px;
     left: 752px;
-    width: 558px;
-    height: 314px;
+    width: 279px; */
+    height: 90px;
 }
 body {
     background-image: url('animated-green-pixel-grass-background-the-concept-of-games-background-squares-pattern-background-minecraft-concept-illustration-light-green-abstract-textured-polygonal-background-video.jpg');
@@ -100,6 +105,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
   }
+  
   h2 {
     display: block;
     font-size: 1.5em;
@@ -138,3 +144,302 @@ footer {
   footer div span {
     margin-left: 8px;
   }
+
+
+  /* INFORMATION PAGE!!!!!! */
+
+  .informationpage {
+    background-image: url('minecraftgradient1.webp');
+  }
+
+
+  .headerinfo {
+    background-color: hsl(120, 6%, 10%); /* Dark gray background */
+    padding: 1rem;
+    text-align: center;
+    opacity: 0.9;
+}
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.nav-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-info {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.nav-links-info {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links-info li {
+    margin-right: 20px;
+}
+
+.nav-links-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links-info a:hover {
+    color: #f0a500;
+}
+
+/* Hero Section */
+.hero-info {
+    height: 60vh;
+    background-image: url('2023-12-10_23.05.54-1.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hero-info h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-info p {
+    font-size: 1.50rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hero-info button {
+    padding: 10px 20px;
+    background-color: #f0a500;
+    color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-info button:hover {
+    background-color: #333;
+}
+
+/* Info Cards Section */
+.info-section-info {
+    padding: 3rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+.info-section-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.info-cards-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: #fff;
+}
+
+.card-info {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    color: #000000;
+}
+
+.card-info:hover {
+    transform: scale(1.05);
+}
+
+.card-info h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.card-info p {
+    font-size: 1rem;
+}
+
+#tree {
+    width: 150px;
+  }
+  #craftingtable {
+    width: 150px;
+  }
+  #wdnpickaxe {
+    width: 120px;
+  }
+
+
+#ironandcoal {
+    width: 110px;
+  }
+  #ironpickaxe {
+    width: 150px;
+  }
+  #diamond {
+    width: 120px;
+  }
+
+#enchanting-table {
+    width: 150px;
+  }
+  #lapis-lazuli {
+    width: 100px;
+  }
+  #plains-house {
+    width: 200px;
+  }
+
+/* Content Section using Grid */
+.content-section-info {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.content-grid-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.content-item-info {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content-item-info h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.content-item-info p {
+    font-size: 1rem;
+}
+
+#taiga {
+    width: 300px;
+    
+  }
+
+  #creeper {
+    width: 140px;
+  }
+
+  #blocks {
+    width: 150px;
+  }
+
+  #crafting1 {
+    width: 340px;
+  }
+/* Footer */
+.footer-info {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .info-cards-info .card-info,
+    .content-grid-info .content-item-info {
+        width: 80%;
+    }
+}
+
+/* GAMEPLAY */
+
+.grid-item-gameplay {
+    width: 1580px;
+    background-color: #0dc435;
+    padding: 400px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    background-image: url(X9_0vYvfSHR0_aySL_y5828RR5epqPW-qIn3S9mFQxU.webp);
+    justify-content: center;
+    align-items: center;
+}
+
+.video-background {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    width: 110%;  /* Set width */
+    object-fit: cover; /* Cover the area, maintaining aspect ratio */
+    transform: translate(-55%, -50%); /* Center the video */
+    z-index: -1; /* Place behind other content */
+    filter: blur(10px);
+}
+
+.content-section-gameplay {
+    padding: 10rem;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.grid-container-gameplay {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-item-gameplay iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+  
