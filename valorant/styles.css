@@ -32,16 +32,16 @@
   background-color: #ff8177;
   background-image: linear-gradient(to top, #ff0844 0%, #ffb1ff 100%);
   background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  background-clip: text; /* Standard property */
+  -webkit-background-clip: text; /* For WebKit-based browsers */
+  -webkit-text-fill-color: transparent; /* For WebKit-based browsers */
+  text-decoration: none;
   display: flex;
   align-items: center;
   cursor: pointer;
-  text-decoration: none;
   font-size: 2rem;
 }
+
 
 .fa-gem {
   margin-right: 0.5rem;
@@ -199,10 +199,11 @@
   background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
+
+
 
 .main__content h2 {
   font-size: 4rem;
@@ -211,10 +212,10 @@
   background-image: linear-gradient(to top, #b721ff 0%, #ff1bc6 100%);
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
+
 
 .main__content p {
   width: 100%;
@@ -331,15 +332,15 @@
 
 .services h1 {
   background-color: #ff8177;
-  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c71 21%, #f99185 52%, #cf556c 78, #b12852 100%);
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c71 21%, #f99185 52%, #cf556c 78%, #b12852 100%);
   background-size: 100%;
   margin-bottom: 5rem;
   font-size: 2.5rem;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
+
 
 .services__container {
   display: flex;
@@ -400,16 +401,17 @@
   cursor: pointer;
 }
 
-@media and (max-width: 960px) {
+@media screen and (max-width: 960px) {
   .services {
       height: 1600px;
   }
-
-  .services h1 {
-      font-size: 2rem;
-      margin-top: 12rem;
-  }
 }
+
+.services h1 {
+  font-size: 2rem;
+  margin-top: 12rem;
+}
+
 
 @media screen and (max-width: 480px) {
   .services {
@@ -547,14 +549,14 @@
   }
 }
 
-@media screen and (max-width 480px) {
+@media screen and (max-width: 480px) {
   .footer__link--items {
       margin: 0;
       padding: 10px;
       width: 100%;
   }
-  
 }
+
 
 
 
