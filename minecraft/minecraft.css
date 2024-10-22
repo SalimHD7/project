@@ -400,7 +400,7 @@ h2 {
 /* GAMEPLAY */
 
 .grid-item-gameplay {
-    width: 1700px;
+    width: 1580px;
     background-color: #0dc435;
     padding: 400px;
     border: 2px solid #ffffff;
@@ -432,3 +432,6 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+
+
+  
