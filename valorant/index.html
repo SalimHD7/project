@@ -4,38 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Valorant Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha384-XXXX" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="game.html">Game</a></li>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">
+                <img src="images/Valorant.png.png" alt="logo" width="240" height="50">
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" class="navbar__links">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="game.html" class="navbar__links">Game</a>
+                </li>
             </ul>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <main>
-        <section id="hero">
-            <h1>Welcome to the Valorant Universe</h1>
-            <p>This is where you'll find everything about Valorant. </p>
-        </section>
-
-        <section id="features">
-            <h2>Key Features of Valorant</h2>
-            <p>Placeholder: List of Valorant's features and gameplay elements.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Valorant Website</p>
-        <p>Developed by [Your Name]</p>
-    </footer>
-
-    <div id="copyright-bar">
-        <p>Valorant | Contact | Privacy Policy</p>
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>VALORANT</h1>
+                <h2>Gemaakt Door RIOT GAMES. INC</h2>
+                <p></p>
+                <a href="about.html" class="button">About</a>
+            </div>
+            <div class="main__img--container">
+                <img src="images/valorant picture 1.png" alt="pic1" id="main__img">
+            </div>
+        </div>
     </div>
+
+    <div class="services">
+        <h1> Meer Informatie Over De Game</h1>
+        <div class="services__container">
+            <div class="services__card">
+                <h2> About </h2>
+                <P> Waar gaat het spel over</P>
+                <Button> About </Button>
+            </div>
+            <div class="services__card">
+                <h2> Game </h2>
+                <P> Hoe werkt het spel</P>
+                <Button> Game </Button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__container">
+        <div class="footer__link">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2> Contact Us</h2>
+                    <a href="/"> Valorant@gmail.com</a>
+                    <a href="/"> +31 12345678</a>
+                    <a href="/"> Whatsapp</a>
+                    <a href="/"> Nederland, Rotterdam</a>
+                    <a href="/"> Riot Games inc</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2> Information</h2>
+                    <a href="/"> About Us</a>
+                    <a href="/"> Game</a>
+                    <a href="/"> Riot Games</a>
+                    <a href="/"> Valorant</a>
+                    <a href="/"> League of Legends</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2> Socials</h2>
+                    <a href="/"> Facebook</a>
+                    <a href="/"> Instagram</a>
+                    <a href="/"> Linkedin</a>
+                    <a href="/"> Twitter</a>
+                    <a href="/"> Youtube</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2> Support</h2>
+                    <a href="/"> How to Download?</a>
+                    <a href="/"> How to log in?</a>
+                    <a href="/"> How to buy points?</a>
+                    <a href="/"> Forgot password?</a>
+                    <a href="/"> Forgot username?</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">
+                        <img src="images/Valorant.png.png" alt="logo" width="240" height="50">
+                    </a>
+                </div>
+                <p class="website__right">Valorant 2024. All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
