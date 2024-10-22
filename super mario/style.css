@@ -121,6 +121,10 @@ body {
   padding: 10px 20px 10px 20px;
   color: white;
 }
+.header ul li:hover {
+  background-color: hsl(0, 97%, 60%);
+  border-radius: 3px;
+}
 @media (max-width: 768px) {
   .header ul li {
     padding: 12px;
@@ -130,17 +134,60 @@ body {
   color: white;
   font-size: 20px;
   font-family: fantasy;
+  letter-spacing: 1px;
 }
 @media (max-width: 768px) {
   .header ul li a{
     font-size: 15px;
   }
 }
-.ladding {
+
+/* Navbar */
+nav.fixed-navbar {
+  width: 90px;
+  position: fixed;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  background-image: url(images/img-2-background.png);
+  padding: 5px;
+  border-radius: 5px;
+  display: none;
+}
+
+nav.fixed-navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav.fixed-navbar ul li {
+  margin: 10px 0;
+}
+
+nav.fixed-navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 5px;
+  display: block;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+nav.fixed-navbar ul li a:hover {
+  background-color: hsl(0, 97%, 50%);
+}
+@media screen and (max-width: 1372px) {
+  nav.fixed-navbar {
+    display: none !important;
+  }
+}
+.landing {
   margin-bottom: 60px;
 }
 
-.ladding img {
+.landing img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
@@ -151,7 +198,6 @@ body {
 }
 .about .container .sections-container{
   background-image: url(images/img-2-background.png);
-  /* max-height: auto; */
   padding: 20px;
   padding-bottom: 40px;
   min-height: 40vh;
@@ -319,16 +365,6 @@ padding: 25px;
   margin-bottom: 20px;
 }
 
-@media (min-width: 1200px) {
-  .games .sections .section .info h3 {
-    font-size: 23px;
-  }
-  .games .sections .section .info p {
-    font-size: 17px;
-  }
-
-}
-
 /* Draggable Image Slider start */
 .media {
 margin-bottom: 60px;
@@ -359,7 +395,7 @@ margin-bottom: 60px;
 }
 .wrapper{
   display: flex;
-  max-width: 1200px;
+  max-width: 1100px;
   position: relative;
   font-family: 'Poppins', sans-serif;
 }
@@ -406,7 +442,7 @@ margin-bottom: 60px;
   pointer-events: none;
 }
 .carousel img{
-  height: 340px;
+  height: 300px;
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
@@ -513,6 +549,7 @@ video {
   object-fit: cover;
 }
 iframe {
+  height: 300px;
   pointer-events: none;
 }
 
