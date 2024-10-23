@@ -31,6 +31,7 @@
             align-items: center;
             justify-content: center;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
         }
         .game-box:hover {
             transform: scale(1.05);
@@ -89,14 +90,34 @@
 <body>
     <div class="game-container">
         <div class="game-box super-mario">
-            <a href="./super mario/index.html">Super Mario</a>
+            <a id="super-mario-link" href="./super mario/index.html">Super Mario</a>
         </div>
         <div class="game-box minecraft">
-            <a href="./minecraft/index.html">Minecraft</a>
+            <a id="minecraft-link" href="./minecraft/index.html">Minecraft</a>
         </div>
         <div class="game-box valorant">
-            <a href="./valorant/index.html">Valorant</a>
+            <a id="valorant-link" href="./valorant/index.html">Valorant</a>
         </div>
     </div>
+    <script>
+        let mBox = document.getElementsByClassName('minecraft')[0];
+        let sBox = document.getElementsByClassName('super-mario')[0];
+        let vBox = document.getElementsByClassName('valorant')[0];
+        
+    
+        let mLink = document.getElementById('minecraft-link');
+        let sLink = document.getElementById('super-mario-link');
+        let vLink = document.getElementById('valorant-link');
+    
+        mBox.onclick = function() {
+            mLink.click();
+        }
+        sBox.onclick = function() {
+            sLink.click();
+        }
+        vBox.onclick = function() {
+            vLink.click();
+        }
+     </script>
 </body>
 </html>
